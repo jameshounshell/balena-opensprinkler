@@ -18,17 +18,17 @@ services:
       - "8080:8080"
     expose:
       - "8080"
-  nodered:
-    build: ./nodered
-    volumes:
-      - "nodered:/var/lib/node-red"
-    expose:
-      - "80"
-    ports:
-      - 80:80   
+#  nodered:
+#    build: ./nodered
+#    volumes:
+#      - "nodered:/var/lib/node-red"
+#    expose:
+#      - "80"
+#    ports:
+#      - 80:80
 
 
 volumes:
   opensprinkler:
-  nodered:
+#  nodered:
   
